@@ -119,7 +119,7 @@ class JavaString {
             switch (value) {
                 case 1:
                     printSubTaskNumberMessage(1);
-                    tt.subTaskFirst(true);
+                    tt.subTaskFirst();
                     break;
                 case 2:
                     printSubTaskNumberMessage(2);
