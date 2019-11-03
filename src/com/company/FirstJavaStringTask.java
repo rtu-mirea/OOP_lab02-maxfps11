@@ -4,9 +4,7 @@ class TaskFirst {
     private String text = "Журавли живут амам возле болот, лесных озер, на лугах, берегах речек. " +
             "Гнеда строят прямо на земле! " +
             "Журавель кружит над гнездом, охраняет его амававам? " +
-            "В конце лета журавли ам ам собираются в стаи и улетают в теплые страны.";
-
-    //private String substring = "ам";
+            "В конце лета журавли \nам ам собираются в стаи и улетают \nв теплые страны.";
 
     void subTaskFirst() {
         char[] array = this.text.toCharArray();
@@ -21,19 +19,23 @@ class TaskFirst {
     }
 
     void subTaskSecond() {
-        String[] words = this.text.split(" ");
+        String[] strings = this.text.split("\n");
 
-        words[0] = words[0].toUpperCase();
+        for (String string : strings) {
+            String[] words = string.split(" ");
 
-        int i = 0;
-        for (String word : words)
-            i++;
+            words[0] = words[0].toUpperCase();
 
-        words[i - 1] = words[i - 1].toUpperCase();
+            int count = 0;
+            for (String word : words)
+                count++;
 
-        for (String word : words)
-            System.out.print(word + " ");
-        System.out.println();
+            words[count - 1] = words[count - 1].toUpperCase();
+
+            for (String word : words)
+                System.out.print(word + " ");
+            System.out.println();
+        }
     }
 
     void subTaskThird() {
