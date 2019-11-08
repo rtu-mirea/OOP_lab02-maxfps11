@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.Scanner;
+import java.util.Scanner;;
 
 class JavaString {
     private Scanner in = new Scanner(System.in);

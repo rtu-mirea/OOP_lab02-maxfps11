@@ -1,5 +1,3 @@
-package com.company;
-
 class TaskFirst {
     private String text = "Журавли живут амам возле болот, лесных озер, на лугах, берегах речек. " +
             "Гнеда строят прямо на земле! " +

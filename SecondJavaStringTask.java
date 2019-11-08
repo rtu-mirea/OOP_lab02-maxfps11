@@ -1,5 +1,3 @@
-package com.company;
-
 class TaskSecond {
     private StringBuilder text = new StringBuilder("Журавли живут амам возле болот, лесных озер, на лугах, берегах речек. " +
             "Гнезда строят прямо на земле! " +
