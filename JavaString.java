@@ -36,7 +36,7 @@ class JavaString {
     }
 
     // tasks functions
-    private void javaStringTaskFirst() {
+    void javaStringTaskFirst() {
         TaskFirst tf = new TaskFirst();
 
         printFirstTaskSubMenuMessage();
@@ -73,7 +73,7 @@ class JavaString {
         }
     }
 
-    private void javaStringTaskSecond() {
+    void javaStringTaskSecond() {
         TaskSecond ts = new TaskSecond();
 
         printSecondTaskSubMenuMessage();
@@ -105,7 +105,7 @@ class JavaString {
         }
     }
 
-    private void javaStringTaskThird() {
+    void javaStringTaskThird() {
         TaskThird tt = new TaskThird();
 
         printThirdTaskSubMenuMessage();
